@@ -7013,7 +7013,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 	display: block;
 	position: relative;
 	overflow: hidden;
-	width: 22.5rem;
+	width: max-content;
 	max-width: 75vw;
 }
 
@@ -7025,10 +7025,13 @@ body.is-preload .gallery.onload-fade-in article .image img {
 }
 
 .gallery.style2 article .image #HealthServiceManagement {
-	display: block;
-	width: 100%;
-	border-radius: 0;
-	height: 400px;
+	max-width: 75vw;
+
+}
+
+.gallery.style2 article .image #CreativeCubicle {
+	max-width: 20vw;
+
 }
 
 .gallery.style2 article .image img {
@@ -7115,7 +7118,8 @@ body.is-preload .gallery.onload-fade-in article .image img {
 }
 
 .gallery.style2.small article {
-	width: 17.5rem;
+	width: fit-content;
+	height: max-content;
 }
 
 .gallery.style2.small article .caption {
@@ -7139,7 +7143,8 @@ body.is-preload .gallery.onload-fade-in article .image img {
 }
 
 .gallery.style2.big article {
-	width: 30rem;
+	width: fit-content;
+	height: fit-content;
 }
 
 .gallery.style2.big article .caption {
