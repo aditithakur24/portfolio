@@ -7018,7 +7018,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 }
 
 .gallery.style2 article .image {
-	display: block;
+	display: inline-flex;
 	width: 100%;
 	border-radius: 0;
 	height: 500px;
